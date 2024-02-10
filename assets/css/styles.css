@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: "soyuz-grotesk";
+    src: 
+    url("../fonts/soyuz-grotesk/soyuz-grotesk.bold.woff") format("woff"),
+    url("../fonts/soyuz-grotesk/soyuz-grotesk.bold.otf") format("opentype"),
+    url("../fonts/soyuz-grotesk/soyuz-grotesk.bold.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+
+
+:root {
+    --primary-color: #662f32;
+    --secondary-color: #554d48;
+  }
+
+  body {
+    background-color: #6c655d;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+  }
