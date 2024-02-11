@@ -196,9 +196,39 @@ header {
   footer {
     display: flex;
     border-top: 1px solid black;
-    padding-top: 30px;
+    padding-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #fb, #tl, #gm {
+    height: 32px;
+    width: 32px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  #fb {
+    background-image: url("../img/reseaux.png");
+    background-position: 0px 0px;
+    margin-right: 10px;
+  }
+
+  #gm {
+    background-image: url("../img/reseaux.png");
+    background-position: -64px 0px;
+    margin-right: 10px;
+  }
+
+  #tl {
+    background-image: url("../img/reseaux.png");
+    background-position: -32px 0px;
+    
   }
